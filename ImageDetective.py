@@ -72,7 +72,8 @@ class Train_Test:
             X = pickle.load(f)
 
         X = np.array(X)
-
+        X = 1-X
+        
         #读取y标签
         with open('act.txt','r') as f:
             y = f.read().split()
