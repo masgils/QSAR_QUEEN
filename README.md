@@ -9,7 +9,7 @@ Before your first use, open terminal and type:
 
 $ python -m pip install --upgrade pip
 
-$ pip install --upgrade numpy sklearn matplotlib Pillow
+$ pip install --upgrade numpy sklearn matplotlib pillow
 
 ## How to use QSAR_QUEEN
 #### Draw 2D molecular structures of compounds,and each one save as a picture.The structure cannot be twisted and stretched. Font size, bond length and bond angle should be consistent. Pictures are best named with numbers. You can use any chemical drawing software you want (ChemBioDraw is recommended).Put all pictures in a folder and prepare following text file:
